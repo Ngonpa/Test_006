@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Lobster';
+  src: url('../font/Lobster.otf');
+}
+/* Rose claire #ec407a */
+/* Rose fonce #fe085b */
+/* bleu claire #3498db */
+/* bleu fonce #2c3e50 */
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lobster';
+}
+
+a,a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn-custom {
+  background-color: #feadc8;
+  color: #ffffff;
+}
+
+.separator {
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #ec407a;
+}
+
+/* header */
+.header {
+  background-color: #ec407a;
+  height: 70px;
+  line-height: 70px
+}
+
+.logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: #fe085b;
+}
+
+/* banniere */
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+  background-color: #feadc8;
+  color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+  background-color: #cf0d4f;
+}
+
+/* about */
+#about {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about article {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about article h2 {
+  text-align: center;
+}
+
+/* portfolio */
+.portfolio {
+  background-color: #eeeeee;
+  height: 800px
+}
+
+#portfolio {
+  text-align: center;
+}
+
+.portfolio .item-folio {
+  height: 200px;
+  background-color: #b97a8f;
+}
+/* contact */
+.footer {
+  background-color: #0f7280;
+  height: 600px;
+}
+
+.footer p {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 7%;
+}
+
+#contact {
+  color: #ffffff;
+  text-align: center;
+}
+
+.formulairecontact {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+input[type=text] {
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+input[type=email] {
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  resize: vertical;
+}
